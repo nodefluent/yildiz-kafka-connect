@@ -15,12 +15,7 @@ npm install --save yildiz-kafka-connect
 
 ### yildiz -> kafka
 
-```es6
-const { runSourceConnector } = require("yildiz-kafka-connect");
-runSourceConnector(config, [], onError).then(config => {
-    //runs forever until: config.stop();
-});
-```
+Currently not supported!
 
 ### kafka -> yildiz
 
@@ -113,7 +108,11 @@ const config = {
     produceCompressionType: 0,
     connector: {
         batchSize: 500,
-        maxPollCount: 500
+        maxPollCount: 500,
+        prefix: "ykc",
+        proto: "http",
+        host: "localhost",
+        port: 3058
     },
     http: {
         port: 3149,
