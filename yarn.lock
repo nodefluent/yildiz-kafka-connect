@@ -2338,9 +2338,9 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-yildiz-js@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/yildiz-js/-/yildiz-js-2.0.0.tgz#785baf8a57d8c3b1912c03d0948aea46b18053ec"
+yildiz-js@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/yildiz-js/-/yildiz-js-2.1.0.tgz#631ec7b939fcfe821a49d2a8af70c2fbbfd56fa8"
   dependencies:
     bluebird "^3.5.1"
     debug "^3.1.0"
