@@ -16,6 +16,7 @@ program
     .option("-p, --proto [string]", "Protocol used for yildiz connection")
     .option("-h, --host [string]", "Host string for yildiz db server")
     .option("-r, --port [number]", "Port for yildiz connection")
+    .option("-e, --token [string]", "(Optional) Token for yildiz connection")
     .option("-o, --batch_size [integer]", "Batch size for inserts")
     .parse(process.argv);
 
@@ -43,6 +44,10 @@ if (program.host) {
 
 if (program.port) {
     config.port = program.port;
+}
+
+if (program.token) {
+    config.token = program.token;
 }
 
 if (program.batch_size) {
