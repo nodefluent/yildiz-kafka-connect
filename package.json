@@ -36,7 +36,7 @@
     "dependencies": {
         "async": "^2.4.1",
         "kafka-connect": "^3.2.0",
-        "yildiz-js": "^2.1.0"
+        "yildiz-js": "^2.2.0"
     },
     "devDependencies": {
         "coveralls": "^3.0.0",
