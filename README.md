@@ -1,7 +1,7 @@
 # yildiz-kafka-connect
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nodefluent/yildiz-kafka-connect.svg)](https://greenkeeper.io/)
-Kafka Connect connector for yildiz db
+Kafka Connect connector for Yildiz Graph Database
 
 [![Build Status](https://travis-ci.org/nodefluent/yildiz-kafka-connect.svg?branch=master)](https://travis-ci.org/nodefluent/yildiz-kafka-connect)
 
@@ -13,11 +13,11 @@ Kafka Connect connector for yildiz db
 npm install --save yildiz-kafka-connect
 ```
 
-### yildiz -> kafka
+### YildizDB -> Kafka
 
 Currently not supported!
 
-### kafka -> yildiz
+### Kafka -> YildizDB
 
 ```es6
 const { runSinkConnector } = require("yildiz-kafka-connect");
@@ -26,7 +26,7 @@ runSinkConnector(config, [], onError).then(config => {
 });
 ```
 
-### kafka -> yildiz (with custom topic (no source-task topic))
+### Kafka -> YildizDB (with custom topic (no source-task topic))
 
 ```es6
 const { runSinkConnector, ConverterFactory } = require("yildiz-kafka-connect");
