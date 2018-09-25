@@ -1,6 +1,6 @@
 {
     "name": "yildiz-kafka-connect",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "Kafka connect connector for Yildiz Graph Database",
     "main": "index.js",
     "scripts": {},
