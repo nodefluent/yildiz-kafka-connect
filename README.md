@@ -1,12 +1,5 @@
 # yildiz-kafka-connect
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/nodefluent/yildiz-kafka-connect.svg)](https://greenkeeper.io/)
-Kafka Connect connector for Yildiz Graph Database
-
-[![Build Status](https://travis-ci.org/nodefluent/yildiz-kafka-connect.svg?branch=master)](https://travis-ci.org/nodefluent/yildiz-kafka-connect)
-
-[![Coverage Status](https://coveralls.io/repos/github/nodefluent/yildiz-kafka-connect/badge.svg?branch=master)](https://coveralls.io/github/nodefluent/yildiz-kafka-connect?branch=master)
-
 ## Use API
 
 ```
